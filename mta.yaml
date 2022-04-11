@@ -102,17 +102,6 @@ resources:
 
 
 
-  # ------------------- HDI CONTAINER SERVICE ------------------
-  - name: app-db
-  # ------------------------------------------------------------
-    type: com.sap.xs.hdi-container
-    parameters:
-      service: hana
-      service-plan: hdi-shared
-    properties:
-      hdi-service-name: ${service-name}
-
-
 
 
 
