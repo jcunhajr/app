@@ -23,7 +23,7 @@ stages:
   Release:
     cloudFoundryDeploy: true
     cfApiEndpoint: "https://api.cf.us30.hana.ondemand.com"
-    cfOrg: "Gerdau Acos Longos S.A. CPEA_cpea-cf-ia-p-any8yv1n"
+    cfOrg: ""Gerdau Acos Longos S.A. CPEA_cpea-cf-ia-p-any8yv1n"""
     cfSpace: "prd"
     cfAppName: "app"
     cfCredentialsId: "deploy-to-cf"
